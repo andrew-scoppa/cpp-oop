@@ -1,0 +1,8 @@
+.vscode
+.vs/
+*.txt
+student-slides/*.pptx
+work/scratch
+play/
+modern/
+~$*
