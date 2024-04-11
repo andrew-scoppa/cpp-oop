@@ -1,12 +1,10 @@
-//  CTest.cpp
-//
-//  Interactive test program for C style stack module
+/*  CTest.c
+    Interactive test program for C style stack module
+*/
 
-#include <iostream>
-#include <cstring>
+#include <stdio.h>
+#include <string.h>
 #include "CStack.h"
-
-using namespace std;
 
 int main()
 {
@@ -14,15 +12,15 @@ int main()
     char cmd[80]; // command
 
     init();
-    cout << ": "; // prompt
-    cin >> cmd;
+    printf(": "); // prompt
+    scanf("%s", cmd);
     while (strcmp(cmd, "quit") != 0)
     {
         if (strcmp(cmd, "push") == 0)
         {
-            cout << "push item: ";
+            printf("push item: ");
             // read an integer item and push onto stack
-            cin >> item;
+            scanf("%d", &item);
             push(item);
         }
         else if (strcmp(cmd, "pop") == 0)
@@ -30,7 +28,7 @@ int main()
             // pop an item from stack and print a line
             // displaying the popped item
             item = pop();
-            cout << "popped item = " << item << '\n';
+            printf("popped item = %d\n", item);
         }
         else if (strcmp(cmd, "print") == 0)
         {
@@ -39,14 +37,14 @@ int main()
         }
         else
         {
-            cout << "legal commands are:\n";
-            cout << "\tpush\n"
-                 << "\tpop\n"
-                 << "\tprint\n"
-                 << "\tquit\n";
+            printf("legal commands are:\n");
+            printf("\tpush\n");
+            printf("\tpop\n");
+            printf("\tprint\n");
+            printf("\tquit\n");
         }
-        cout << ": ";
-        cin >> cmd;
+        printf(": ");
+        scanf("%s", cmd);
     }
     return 0;
 }
