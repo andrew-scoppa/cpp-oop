@@ -5,26 +5,24 @@
 #include <iostream>
 #include "IntStack.h"
 
-using namespace std;
-
 int main()
 {
-	IntStack s;			// IntStack is a type
+    IntStack s;			// IntStack is a type
 
-	int item;
+    int item;
 
-	s.InitStack();		
+    s.InitStack();		
 
-	s.Push(10);
-	s.Push(20);
-	s.Push(30);
-	
-	s.Print();
+    s.Push(10);
+    s.Push(20);
+    s.Push(30);
+    
+    s.Print();
 
-	item = s.Pop();		// what is stored in item?
-	cout << "Popped item = " << item << '\n';
+    item = s.Pop();		// what is stored in item?
+    std::cout << "Popped item = " << item << '\n';
 
-	s.Print();
+    s.Print();
 
-	return 0;
+    return 0;
 }

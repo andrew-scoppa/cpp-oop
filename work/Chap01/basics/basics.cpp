@@ -12,9 +12,9 @@ A namespace helps prevent name conflicts in large projects.
 You want to use the functionalities of a namespace throughout the code without repeatedly calling the namespace when it's required.
 So, you declare the namespace at the beginning of the code.
 Also, the syntax that's required for using cout is std::cout.
-By adding the line using namespace std;, you don't need to repetitively use std.
+Adding the line "using namespace std;" can help you avoid writing "std::" before the standard functions.
 */
-using namespace std;
+using std::cin, std::cout, std::endl, std::getline, std::string, std::stol;
 
 /*
 main() is a global function and is an entry point for a C++ program. 

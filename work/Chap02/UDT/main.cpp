@@ -1,6 +1,8 @@
 #include <iostream>
 
-using namespace std;
+// add the 'using' statement to use only the 'string' class and 'cout'
+using std::string;
+using std::cout;
 
 struct SAutomobile{
   string make;
@@ -18,14 +20,14 @@ int main() {
   SAutomobile s;
   s.make = "Land Rover";
   s.model = "Defender";
-  s.year = 2020;
+  s.year = 2024;
 
   cout << s.make << " " << s.model << " " << s.year << "\n";
 
-  CAutomobile c;
+  CAutomobile car;
 // TODO
-// Assign values to the make, model, and year of c then output the values.
-// Try to compile...
- 
+// Try to assign values to the make, model, and year of 'car' then output the values.
+
+
   return 0;
 }
