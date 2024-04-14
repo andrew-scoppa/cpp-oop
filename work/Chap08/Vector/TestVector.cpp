@@ -2,7 +2,9 @@
 
 #include <iostream>
 #include "Vector.h"
-using namespace std;
+
+
+using std::cout, std::endl;
 
 int Vector::size;
 

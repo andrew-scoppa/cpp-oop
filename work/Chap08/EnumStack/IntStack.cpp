@@ -7,7 +7,7 @@
 #include "IntStack.h"
 #include "Trace.h"
 
-using namespace std;
+using std::cout, std::cerr, std::endl;
 
 IntStack::IntStack()        
 {
