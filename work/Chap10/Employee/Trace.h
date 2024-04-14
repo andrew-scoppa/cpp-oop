@@ -4,7 +4,7 @@
 #define _TRACE_H
 
 #include <iostream>
-using namespace std;
+using std::cout, std::endl;
 
 inline void Trace(const char* str)
 {

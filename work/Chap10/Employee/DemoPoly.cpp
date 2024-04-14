@@ -17,20 +17,18 @@ int main()
 		new SalaryEmployee("Sally", 500),
 		new WageEmployee("Wally", 40, 10),
 		new SalesEmployee("Sue", 200, 4),
-		nullptr};
+		};
 
-	const Employee **pEmpNav = pEmp;
 
-	while (*pEmpNav != nullptr){ ++pEmpNav;}
-
-	long numEmp = pEmpNav - pEmp;
+	size_t numEmp = sizeof(pEmp) / sizeof(*pEmp);
 
 	PayReport(pEmp, numEmp);
 
 	for (int i = 0; i < numEmp; ++i)
+	{
 		delete pEmp[i];
+	}
 
-	
 	cout << "Finished" << endl;
 	return 0;
 }
