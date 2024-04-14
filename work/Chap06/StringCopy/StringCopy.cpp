@@ -1,23 +1,20 @@
 //  StringCopy.cpp
-//
-// Use Version 3 of String class
 
 #pragma warning(disable : 4996)
 
 #include <iostream>
 #include "Strn.h"
-using namespace std;
 
 void PrintString(String a)
 {
-	cout << "a = " << a.GetString() << endl;
+	std::cout << "In PrintString a = " << a.GetString() << std::endl;
 }
 
 int main()
 {
-	String a("Alpha");
-	cout << "a = " << a.GetString() << endl;
+	String a("C++ is fun!");
+	std::cout << "In main a = " << a.GetString() << std::endl;
 	PrintString(a);
-	cout << "a = " << a.GetString() << endl;
+	std::cout << "In main a = " << a.GetString() << std::endl;
 	return 0;
 }

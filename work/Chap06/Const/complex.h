@@ -1,4 +1,4 @@
-// Specification for a complext user-defined type
+// Specification for a complex user-defined type
 
 class Complex{
 public:

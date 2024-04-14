@@ -5,26 +5,22 @@
 #include <iostream>
 #include "IntStack.h"
 
-using namespace std;
-
+/**
+ * main() creates an instance of the IntStack class, initializes the stack,
+ * pushes some items onto the stack, and then prints the contents of the stack.
+ * Finally, it returns 0 to indicate successful execution of the program.
+ */
 int main()
 {
-	IntStack s;			// IntStack is a type
-	int item;
+    IntStack s;			// IntStack is a type
+    int item;
 
-	s.InitStack();		// need to initialize stack!
-	s.Push(5);
-	s.Push(7);
-	s.Push(150);
-
-	s.Print();
-
-	item = s.Pop();		
-	cout << "Popped item = " << item << '\n';
+    s.InitStack();		// need to initialize stack!
+    s.Push(5);
+    s.Push(7);
+    s.Push(150);
 
 	s.Print();
 
-	//item = s.top;		// Not legal - Why not?
-
-	return 0;
+    return 0;
 }

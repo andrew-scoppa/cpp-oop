@@ -1,15 +1,14 @@
 //  AssignmentBug.cpp
 
 #include <iostream>
-#include "Strn.h"
-using namespace std;
+#include <string>
 
 int main()
 {
-	String a;
-	String b("Alpha");
-	a = b;
-	cout << "a = " << a.GetString() << endl;
-	cout << "b = " << b.GetString() << endl;
-	return 0;
+    std::string a;
+    std::string b("C++ rocks!");
+    a = b;
+    std::cout << "a = " << a << std::endl;
+    std::cout << "b = " << b << std::endl;
+    return 0;
 }

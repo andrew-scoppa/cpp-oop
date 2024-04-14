@@ -1,6 +1,6 @@
 //  Strn.cpp
 //
-//  Implementation of String class, version 4A
+//  Implementation of String class 
 
 #include <cstring>
 #include "Trace.h"

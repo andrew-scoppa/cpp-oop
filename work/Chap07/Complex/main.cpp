@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 class Complex
 {
 private:
@@ -55,7 +53,7 @@ int main()
 	Complex c1(10, 0), c2(10,0);
 	Complex prod = c1 * c2;
 
-	cout << prod.getReal() << " + " << prod.getImaginary() << " i" << endl;
+	std::cout << prod.getReal() << " + " << prod.getImaginary() << " i" << std::endl;
 
-	cout << "double: " << prod << endl;
+	std::cout << "double: " << prod << std::endl;
 }

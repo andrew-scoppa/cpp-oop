@@ -1,6 +1,4 @@
 //  Strn.cpp
-//
-//  Implementation of String class, version 3
 
 #pragma warning(disable : 4996)
 

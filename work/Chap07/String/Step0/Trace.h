@@ -4,21 +4,20 @@
 #define _TRACE_H
 
 #include <iostream>
-using namespace std;
 
 inline void Trace(const char* str)
 {
-	cout << str << '\n';
+    std::cout << str << '\n';
 }
 
 inline void Trace(const char* str1, const char* str2)
 {
-	cout << str1 << str2 << '\n';
+    std::cout << str1 << str2 << '\n';
 }
 
 inline void Trace(const char* str1, int num)
 {
-	cout << str1 << num << '\n';
+    std::cout << str1 << num << '\n';
 }
 
 #endif

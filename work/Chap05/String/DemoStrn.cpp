@@ -4,22 +4,19 @@
 
 #include <iostream>
 #include "Strn.h"
-using namespace std;
-
-// use pointer arguments to get around copy
 
 void PrintStrings(String *pa, String *px)
 {
-	cout << "pa = " << pa->GetString() << endl;
-	cout << "px = " << px->GetString() << endl;
+    std::cout << "pa = " << pa->GetString() << std::endl;
+    std::cout << "px = " << px->GetString() << std::endl;
 }
 
 int main()
 {
-	String a("Alpha");
-	String x;
-	PrintStrings(&a, &x);
-	x.SetString(a.GetString());
-	PrintStrings(&a, &x);
-	return 0;
+    String a("Alpha");
+    String x;
+    PrintStrings(&a, &x);
+    x.SetString(a.GetString());
+    PrintStrings(&a, &x);
+    return 0;
 }

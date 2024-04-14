@@ -5,26 +5,26 @@
 #define _TRACE_H
 
 #include <iostream>
-using namespace std;
 
 inline void Trace(const char* str)
 {
-	cout << str << endl;
+    std::cout << str << std::endl;
 }
 
 inline void Trace(const char* str1, const char* str2)
 {
-	cout << str1 << str2 << endl;
+    std::cout << str1 << str2 << std::endl;
 }
 
 inline void Trace(const char* str1, int num)
 {
-	cout << str1 << num << endl;
+    std::cout << str1 << num << std::endl;
 }
 
 inline void Trace(int num)
 {
-	cout << num << endl;
+    std::cout << num << std::endl;
 }
+
 
 #endif

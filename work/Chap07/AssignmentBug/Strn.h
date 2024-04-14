@@ -1,6 +1,6 @@
 //  Strn.h
 //
-//  Specification of String class, version 4B
+//  Specification of String class that represents a string of characters.
 
 #ifndef _STRN_H
 #define _STRN_H

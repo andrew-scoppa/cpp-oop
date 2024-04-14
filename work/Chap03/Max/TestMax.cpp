@@ -1,7 +1,7 @@
 // TestMax.cpp
 //
 //  Function to determine max. of 2 or 3 char's, int's or long's
-//  along with test program.  Note need to do type casting in calling
+//  along with test program.  Need to do type casting in calling
 //  function for char's.
 
 #include <iostream>
@@ -36,6 +36,9 @@ int main()
 	return 0;
 }
 
+/*
+ * Finds  and returns the maximum value among three given numbers.
+ */
 long Maxval(long x, long y, long z)
 {
     long tmax = (x > y ? x : y);

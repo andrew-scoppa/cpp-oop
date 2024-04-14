@@ -5,19 +5,29 @@
 #ifndef _STRN_H
 #define _STRN_H
 
-const int STRINGSIZE = 80;
-
+/*
+ * The String class provides functionality to work with strings of characters.
+ * It includes methods to set and get the string value.
+ */
 class String
 {
 public:
+	// Default constructor initializes the string to an empty string
 	String();
-	String(const char *str); // conversion ctor
+
+	// Conversion constructor initializes the string to the specified C-style string
+	String(const char *str);
+
+	// Destructor
 	~String();
+
+	// Methods to set and get the string value
 	void SetString(const char *str);
 	const char *GetString();
+
 private:
-	char m_str[STRINGSIZE];
-	
+	static const int STRINGSIZE = 100; // Maximum size of the string
+	char m_str[STRINGSIZE]; // The actual string data
 };
 
 #endif

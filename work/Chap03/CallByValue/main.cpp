@@ -2,8 +2,6 @@
 
 #include <iostream>
 
-using namespace std;
-
 struct Point{
     int x = 0;
     int y = 0;
@@ -18,14 +16,14 @@ void Reset(Point p){
 int main(){
     Point p;
 
-    cout << "Initial values: " << p.x << ", " << p.y << endl;
+    std::cout << "Initial values: " << p.x << ", " << p.y << std::endl;
 
     p.x = 10;
     p.y = 10;
 
-    cout << "Before reset: " << p.x << ", " << p.y << endl;
+    std::cout << "Before reset: " << p.x << ", " << p.y << std::endl;
 
     Reset(p);
 
-    cout << "After reset: " << p.x << ", " << p.y << endl;
+    std::cout << "After reset: " << p.x << ", " << p.y << std::endl;
 }
