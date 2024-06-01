@@ -21,6 +21,10 @@ void HeapDemo();
 
 int main()
 {
+	cout << "Stack demo:" << endl;
+	StackDemo();
+	cout << "Heap demo:" << endl;
+	HeapDemo();
 	return 0;
 }
 
@@ -46,5 +50,11 @@ void HeapDemo(){
 	for (Num **it = begin; it < end; ++it)
 	{
 		std::cout << (*it)->get() << std::endl;
+	}
+
+	// Deallocate the dynamically allocated Num objects
+	for (int i = 0; i < count; ++i)
+	{
+		delete nums[i];
 	}
 }

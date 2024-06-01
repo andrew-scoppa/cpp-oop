@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <iostream>
 #include <string>
 
@@ -17,7 +16,7 @@ double difSquares(double x, double y) {
 int main()
 {
 
-	typedef double(*mathfunc)(double, double);
+	typedef double(*mathfunc)(double, double); // mathfunc is a pointer to a function that takes two doubles and returns a double
 	mathfunc pfn;
 
 

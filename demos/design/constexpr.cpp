@@ -1,6 +1,5 @@
 /*
-The primary difference between const and constexpr is that constexpr 
-is that the initialization of a const can be deferred until runtime. 
+The primary difference between const and constexpr is that the initialization of a const can be deferred until runtime. 
 
 A constexpr must be initialized at compile time.
 

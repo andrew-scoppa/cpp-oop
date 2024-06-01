@@ -19,6 +19,4 @@ int main(){
        w[i].Show();
     }
     
-
-
 }
