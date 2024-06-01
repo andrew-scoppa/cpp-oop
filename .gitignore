@@ -3,5 +3,5 @@
 *.txt
 student-slides/*.pptx
 work/scratch
-
+instructor/
 ~$*
