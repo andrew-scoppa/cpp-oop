@@ -3,6 +3,6 @@
 *.txt
 student-slides/*.pptx
 work/scratch
-play/
+instructor-slides/
 modern/
 ~$*
