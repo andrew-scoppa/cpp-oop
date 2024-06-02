@@ -21,11 +21,11 @@ main() is a global function and is an entry point for a C++ program.
 */
 int main()
 {
-
-    string resp;
-    auto guessCount = 1;
-    int guess;
-    string message;
+    // local variables if unintialized, have undefined values
+    string resp;            // user response
+    auto guessCount = 1;    // number of guesses
+    int guess;              // user's guess 
+    string message;         // message to user
 
 /*
 The #if directive (and the #elif, #else, and #endif directives) controls compilation of portions of a source file.

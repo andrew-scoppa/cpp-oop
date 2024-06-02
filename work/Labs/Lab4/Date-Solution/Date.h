@@ -9,7 +9,7 @@ class Date
 {
 public:
 
-    Date(short y = 2023, short m = 1, short d = 1);
+    Date(short y = 2024, short m = 1, short d = 1);
     ~Date();
     void SetYear(short y);
     void SetMonth(short m);

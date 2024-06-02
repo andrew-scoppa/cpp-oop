@@ -1,24 +1,22 @@
 // Trace.h
 
-#ifndef _TRACE_H
-#define _TRACE_H
+#pragma once
 
 #include <iostream>
-using namespace std;
 
 inline void Trace(const char* str)
 {
-	cout << str << '\n';
+	std::cout << str << std::endl
 }
 
 inline void Trace(const char* str1, const char* str2)
 {
-	cout << str1 << str2 << '\n';
+	std::cout << str1 << str2 << std::endl
 }
 
 inline void Trace(const char* str1, int num)
 {
-	cout << str1 << num << '\n';
+	std::cout << str1 << num << std::endl;
 }
 
-#endif
+

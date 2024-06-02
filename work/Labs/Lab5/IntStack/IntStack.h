@@ -1,6 +1,3 @@
-//  IntStack.h
-//
-//  Specification of Integer Stack class, version 3
 
 #ifndef _INTSTACK_H
 #define	_INTSTACK_H

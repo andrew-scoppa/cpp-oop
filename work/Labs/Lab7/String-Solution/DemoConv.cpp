@@ -1,7 +1,4 @@
 //  DemoConv.cpp
-//
-//  Demo program for conversions & assignments
-//  Uses Version 5 of String class
 
 #include "Trace.h"
 #include "Strn.h"

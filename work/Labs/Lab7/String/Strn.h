@@ -1,6 +1,3 @@
-//  Strn.h
-//
-//  Specification of String class, version 4D
 
 #ifndef _STRN_H
 #define _STRN_H

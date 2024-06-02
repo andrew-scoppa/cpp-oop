@@ -1,6 +1,3 @@
-//  Strn.cpp
-//
-//  Implementation of String class, Version 3
 
 #include <cstring>
 #include "Trace.h"

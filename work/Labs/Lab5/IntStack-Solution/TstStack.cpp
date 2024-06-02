@@ -1,6 +1,4 @@
 //  TstStack.cpp
-//
-//  Interactive test program for IntStack class
 
 #include <iostream>
 #include <cstring>

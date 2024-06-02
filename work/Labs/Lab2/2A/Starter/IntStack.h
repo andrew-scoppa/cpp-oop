@@ -1,8 +1,7 @@
-//  IntStack.h
-//
-//  Specification of Integer Stack class, version 1
+// prevent this file from being included more than once
+#pragma once
 
-const int STACKSIZE = 100;
+#define STACKSIZE 100
 
 class IntStack              // IntStack is tag-name
 {
@@ -14,7 +13,7 @@ public:
 
 private:
 	int stack[STACKSIZE]={0};	// stack data
-	int top;                // top of stack
-};                          // don't forget semicolon!!!
+	int top;                	// top of stack
+};                          	// don't forget semicolon!!!
 
 

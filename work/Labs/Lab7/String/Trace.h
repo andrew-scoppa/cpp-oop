@@ -1,5 +1,3 @@
-// Trace.h
-// Version 2
 
 #ifndef _TRACE_H
 #define _TRACE_H

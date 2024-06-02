@@ -1,6 +1,4 @@
 //  Strn.h
-//
-//  Specification of String class, version 5
 
 #ifndef _STRN_H
 #define _STRN_H

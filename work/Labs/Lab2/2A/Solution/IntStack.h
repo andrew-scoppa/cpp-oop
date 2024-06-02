@@ -1,8 +1,7 @@
-//  IntStack.h
-//
-//  Specification of Integer Stack class, version 2
+// prevent this file from being included more than once
+#pragma once
 
-const int STACKSIZE = 5;
+#define STACKSIZE 5
 
 class IntStack              
 {
