@@ -29,9 +29,9 @@ To gain the most benefit from this course, students should have experience progr
 
 ## Course Outline  
 
-Language Primer & OO Concepts
+Language Primer
 - Examine the basic syntax and language constructs of a C++ program.
-- Learn how the object model provides the framework for abstraction, encapsulation and instantiation.
+- Review the object model provides the framework for abstraction, encapsulation and instantiation.
 
 Classes in C++
 - Use member data to represent data encapsulated in a   class.
